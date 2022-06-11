@@ -146,7 +146,8 @@
 
     <div class="row">
 
-        <div class="omtaler-col">
+        <button class="omtalerknapp" onclick="myFunction()">Åpne omtaler</button>
+        <div id= "myDIV" class="omtaler-col">
             <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmaystotterud%2Fposts%2F2062884507184650&show_text=true" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
       
             <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhueywen.ooi%2Fposts%2F10158546388409532&show_text=true" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
@@ -193,6 +194,19 @@ function showMenu(){
 }
 
 </script>
+
+<!-----------JavaScript for open close menu ----------->
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
 
 </body>
 </html>

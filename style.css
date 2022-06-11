@@ -274,6 +274,10 @@ h3 {
     text-align: center;
 }
 
+.omtalerknapp {
+    display: none;
+}
+
 .omtaler-col {
     display: block;
     width: 100%;
@@ -290,6 +294,14 @@ iframe {
 }
 
 @media (max-width: 700px){
+    .omtalerknapp {
+        display: block;
+    }
+ 
+    #myDIV {
+        display: none;
+    }
+    
     iframe{
         width: 100%;
     }
