@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta name="description" content="Aasum trafikkskole er en pålitelig trafikkskole, som utdanner førerkort aspiranter til å bli trafikksikre sjåfører.">
+
+    <title>Aasum-trafikkskole</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    
+    
+    <script src="https://kit.fontawesome.com/d4b1dfde5b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HJEM</a></li>
+                    <li><a href="">PRISER</a></li>
+                    <li><a href="">OM OSS</a></li>
+                    <li><a href="">KONTAKT</a></li>
+                    <li><a href="">HVOR</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Prisene våre</h1>
+
+
+    </section>
+<!------------------- Priser info -------------------------->
+<section class="priser">
+    <div class="row">
+        <div class="priser-col">
+                <table>
+                    <tr>
+                        <td>Kjøretime</td>
+                        <td>800,-</td>
+                    </tr>
+                    <tr>
+                        <td>Trinnvurderingstime</td>
+                        <td>800,-</td>
+                    </tr>
+                    <tr>
+                        <td>Sikkerhetskurs på vei</td>
+                        <td>7 850,-</td>
+                    </tr>
+                    <tr>
+                        <td>NAF baneleie gebyr</td>
+                        <td>1 350,-</td>
+                    </tr>
+                    <tr>
+                        <td>Sikkerhetskurs på bane</td>
+                        <td>4 200,-</td>
+                    </tr>
+                    <tr>
+                        <td>Leie av bil til førerprøve</td>
+                        <td>2 750,-</td>
+                    </tr>
+                </table>
+        </div>
+    </div>
+</section>
+
+<!--------- info ------------->
+
+<section class="ki">
+    <h1>Kontakt informasjon</h1>
+    <p>
+    <i class="fa-solid fa-phone"></i> <a href="">64 80 80 09</a>
+    <br>
+    <i class="fa-solid fa-envelope"></i> <a href="">Driver@driver.no</a>
+    <br>
+    <i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/drivertrafikk" target="_blank">Trafikkskolen Driver</a>
+    <br>
+    <i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/driver.no/" target="_blank">Trafikkskolen Driver</a>
+    <br>
+    <br>
+    <br>
+    Trafikkskolen Driver AS  All rights reserved
+    </p>
+</section>
+
+
+
+
+
+
+<!-----------JavaScript for Toggle Menu ----------->   
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+    function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+</script>
+
+</body>
+</html>
