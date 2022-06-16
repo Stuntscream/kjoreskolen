@@ -140,7 +140,7 @@ nav .fa-solid {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 h1{
@@ -309,13 +309,15 @@ iframe {
 }
 
 /*------------footer-------------------*/
-.container {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container {
     max-width: 1170px;
     margin: auto;
-    
 }
 
 .row{
@@ -423,7 +425,8 @@ ul {
 }
 
 .priser {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     padding-bottom: 50px;
 }
 
@@ -458,4 +461,12 @@ table tbody tr:nth-child(even):hover{
 .priser-col {
     margin-left: auto;
     margin-right: auto;
+}
+
+/*----------Pr - info -----------------*/
+
+.pr-info {
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
