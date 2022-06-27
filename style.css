@@ -166,13 +166,14 @@ p{
 .pakker-col{
     flex-basis: 31%;
     /*background: #7844e960;*/
-    background: #e7e7e760;
-    outline: 1px solid rgba(78, 78, 78, 0.329);
+    background: #ffffff60;
+    outline: 1px solid rgba(202, 202, 202, 0.329);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;
 }
 
 h3 {
@@ -427,6 +428,10 @@ ul {
     text-decoration: none;
 }
 
+.priser-col a{
+    color: black;
+}
+
 .priser {
     width: 80%;
     margin: auto;
@@ -471,5 +476,45 @@ table tbody tr:nth-child(even):hover{
 .pr-info {
     width: 80%;
     margin: auto;
+}
+
+/*----------opplæring - header -----------------*/
+.op-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
     text-align: center;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.op-header h1 {
+    margin-top: 100px;
+}
+
+/*----------opplæring - trinn -----------------*/
+
+.trinn {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    outline: 1px solid rgba(202, 202, 202, 0.329);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;
+}
+
+.trinn h2 {
+    text-align: left;
+    padding-left: 8px;
+    border-bottom: 1px solid black;
+}
+
+.trinn p {
+    text-align: left;
 }
