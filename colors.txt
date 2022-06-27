@@ -1,0 +1,3 @@
+Primary: #7944ea
+p-light: #af73ff
+p-dark: #3f12b7
