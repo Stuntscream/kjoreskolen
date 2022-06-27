@@ -554,3 +554,9 @@ table tbody tr:nth-child(even):hover{
 .trinn p {
     text-align: left;
 }
+
+@media (max-width: 700px){
+    .trinn{
+       width: 80%;
+    }
+}

@@ -14,7 +14,7 @@ Hjemmeside for Driver
   <p align="center">
     Hjemmeside for Driver avdeling Edvard. 
     <br />
-    <a href="https://stuntscream.github.io/kjoreskolen/index.html">View Demo</a>
+    <a href="https://stuntscream.github.io/kjoreskolen/index.html">Se demo</a>
   </p>
 </div>
 
