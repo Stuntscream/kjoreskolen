@@ -93,7 +93,7 @@ position: relative;
 }
 
 .hero-btn:hover{
-    border: 1px solid #7844ea;
+    border: 1px solid #7944ea69;
     Background: #7844ea;
     transition: 1s;
 }
@@ -165,7 +165,6 @@ p{
 
 .pakker-col{
     flex-basis: 31%;
-    /*background: #7844e960;*/
     background: #ffffff60;
     outline: 1px solid rgba(202, 202, 202, 0.329);
     border-radius: 10px;
@@ -174,6 +173,40 @@ p{
     box-sizing: border-box;
     transition: 0.5s;
     box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detalj-btn {
+    position: relative;
+    margin-bottom: 0%;
+}
+
+.small-text {
+    margin-top: 10px;
+}
+
+.detalj-btn-a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #7944ea;
+    border-radius: 7px;
+    padding: 3px 6px;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.detalj-btn-a p{
+    color: #fff;
+}
+
+.detalj-btn-a:hover{
+    Background: #3f12b7;
+    transition: 0.5s;
 }
 
 h3 {
@@ -182,9 +215,6 @@ h3 {
     margin: 10px 0;
 }
 
-.pakker-col:hover{
-    background-color: #7944ea38;
-}
 
 @media(max-width: 700px) {
     .row{
@@ -474,7 +504,7 @@ table tbody tr:nth-child(even):hover{
 /*----------Pr - info -----------------*/
 
 .pr-info {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 

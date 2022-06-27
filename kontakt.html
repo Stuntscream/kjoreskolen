@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta name="description" content="Aasum trafikkskole er en pålitelig trafikkskole, som utdanner førerkort aspiranter til å bli trafikksikre sjåfører.">
+
+    <title>Aasum-trafikkskole</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    
+    
+    <script src="https://kit.fontawesome.com/d4b1dfde5b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--------------Header------------------>
+
+    <section class="op-header">
+
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HJEM</a></li>
+                    <li><a href="./priser.html">PRISER</a></li>
+                    <li><a href="./opplaering.html">OPPLÆRING</a></li>
+                    <li><a href="./kontakt.html">KONTAKT</a></li>
+                    <li><a href="./omoss.html">OM OSS</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Kontakt informasjon</h1>
+
+
+    </section>
+
+<!---------------------INNHOLD HER------------------------------->
+
+<!--------- Footer ------------->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Opplæringen </h4>
+                <ul>
+                    <li><a href="#">Trinn 1</a></li>
+                    <li><a href="#">Trinn 2</a></li>
+                    <li><a href="#">Trinn 3</a></li>
+                    <li><a href="#">Trinn 4</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Kontakt oss </h4>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-phone"></i> 64 80 80 09</a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i> driver@driver.no</a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Bestill her</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Følg oss</h4>
+                <div class="footer-links">
+                    <a href="https://www.facebook.com/drivertrafikk" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/driver.no/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-----------JavaScript for Toggle Menu ----------->   
+
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+    function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+</script>
+
+</body>
+</html>
