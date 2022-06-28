@@ -1,0 +1,40 @@
+.omtaler{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.omtalerknapp {
+    display: none;
+}
+
+.omtaler-col {
+    display: block;
+    width: 100%;
+}
+
+iframe {
+    display: inline-block;
+    width: 49.5%;
+    height: 228px;
+}
+
+.omtaler-col p {
+    padding: 0;
+}
+
+@media (max-width: 700px){
+    .omtalerknapp {
+        display: block;
+    }
+ 
+    #myDIV {
+        display: none;
+    }
+    
+    iframe{
+        width: 100%;
+    }
+}

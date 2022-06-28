@@ -1,0 +1,84 @@
+.pakker {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600px;
+}
+
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pakker-col{
+    flex-basis: 31%;
+    background: #ffffff60;
+    outline: 1px solid rgba(202, 202, 202, 0.329);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detalj-btn {
+    position: relative;
+    margin-bottom: 0%;
+}
+
+.small-text {
+    margin-top: 10px;
+}
+
+.detalj-btn-a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #7944ea;
+    border-radius: 7px;
+    padding: 3px 6px;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.detalj-btn-a p{
+    color: #fff;
+}
+
+.detalj-btn-a:hover{
+    Background: #3f12b7;
+    transition: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+
+@media(max-width: 700px) {
+    .row{
+        flex-direction: column;
+    }
+}

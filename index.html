@@ -5,7 +5,19 @@
     <meta name="description" content="Aasum trafikkskole er en pålitelig trafikkskole, som utdanner førerkort aspiranter til å bli trafikksikre sjåfører.">
 
     <title>Aasum-trafikkskole</title>
+
+    <!--------------styles-links------------------>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/styles/nav.css">
+    <link rel="stylesheet" href="./assets/styles/">
+    <link rel="stylesheet" href="./assets/styles/button.css">
+    <link rel="stylesheet" href="./assets/styles/avdeling.css">
+    <link rel="stylesheet" href="./assets/styles/omtaler.css">
+    <link rel="stylesheet" href="./assets/styles/opplaering.css">
+    <link rel="stylesheet" href="./assets/styles/pakker.css">
+    <link rel="stylesheet" href="./assets/styles/priser.css">
+
+    <!--------------fonts og icons-links------------------>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
@@ -13,8 +25,8 @@
     
     <script src="https://kit.fontawesome.com/d4b1dfde5b.js" crossorigin="anonymous"></script>
 </head>
-<body>
 
+<body>
 <!--------------Header------------------>
 
     <section class="header">
@@ -171,7 +183,7 @@
 
     <div class="row">
 
-        <button class="omtalerknapp" onclick="myFunction()">Åpne omtaler</button>
+        <button class="omtalerknapp" onclick="Omtaler()">Åpne omtaler</button>
         <div id= "myDIV" class="omtaler-col">
             <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmaystotterud%2Fposts%2F2062884507184650&show_text=true" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
       
@@ -220,34 +232,11 @@
     </div>
 </footer>
 
-<!-----------JavaScript for Toggle Menu ----------->   
+<!-----------JavaScript ----------->   
 
-<script>
-
-var navLinks = document.getElementById("navLinks");
-
-function showMenu(){
-    navLinks.style.right = "0";
-}
-    function hideMenu(){
-    navLinks.style.right = "-200px";
-}
-
-</script>
-
-<!-----------JavaScript for omtalers "open close menu" ----------->
-
-    <script>
-    function myFunction() {
-      var x = document.getElementById("myDIV");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-        x.style.display == "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-    </script>
+<script src="./js/TabComponent.js"></script>
+<script src="./js/ToogleMenu.js"></script>
+<script src="./js/Omtaler.js"></script>
 
 
 </body>
