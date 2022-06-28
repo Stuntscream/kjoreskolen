@@ -14,6 +14,9 @@
     <script src="https://kit.fontawesome.com/d4b1dfde5b.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+<!--------------Header------------------>
+
     <section class="header">
 
         <nav>
@@ -21,11 +24,11 @@
             <div class="nav-link" id="navLinks">
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="">HJEM</a></li>
-                    <li><a href="">PRISER</a></li>
-                    <li><a href="">OM OSS</a></li>
-                    <li><a href="">KONTAKT</a></li>
-                    <li><a href="">HVOR</a></li>
+                    <li><a href="./index.html">HJEM</a></li>
+                    <li><a href="./priser.html">PRISER</a></li>
+                    <li><a href="./opplaering.html">OPPLÆRING</a></li>
+                    <li><a href="./kontakt.html">KONTAKT</a></li>
+                    <li><a href="./omoss.html">OM OSS</a></li>
                 </ul>
             </div>
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
@@ -34,13 +37,15 @@
     <div class="text-box">
         <h1>Alt du trenger for å ta lappen <br>raskt og sikkert!</h1>
         <p>Kvalitet i opplæring gir deg lappen i tide!</p>
-        <a href="" class="hero-btn">Se priser her</a>
+        <a href="./kontakt.html" class="hero-btn">Kontakt oss</a>
 
     </div>
 
 
     </section>
+
 <!------------------- Pakker vi tilbyr -------------------------->
+
 <section class="pakker">
     <h1>Pakker vi tilbyr</h1>
     <p>Pakker er kun en forhåndsbetaling som gir rabatt og ingen garanti for at man kun trenger de inkluderte timene.<br>Pakker har en varighet på to år fra kjøpsdato og refunderes ikke.
@@ -48,39 +53,59 @@
 
 <div class="row">
     <div class="pakker-col">
-        <h3>
-            Full Pakke 
-            <br> Pris: 25 500,-
-        </h3>
-        <p> 
-            <br> - 10 Kjøretimer
-            <br> - 2 Trinnvurderinger
-            <br> - Sikkerhetskurs på bane
-            <br> - Sikkerhetskurs på vei
-            <br> - Leie av bil til førerprøve
-        </p>
+        <div class="big-text">
+            <h2>
+                Full pakke<br>25 500,-
+             </h2>
+        </div>
+        
+        <div class="small-text">
+            <p>6 kjøretimer</p>
+            <p>2 Trinnvurderinger</p>
+            <p>Sikkerhetskurs på bane</p>
+            <p>Sikkerhetskurs på vei</p>
+            <p>Leie av bil til førerprøve</p>
+        </div>
+
+        <div class="detalj-btn">
+            <a href="./priser.html" class="detalj-btn-a"><p>Se detaljer</p></a>
+        </div>
     </div>
+
     <div class="pakker-col">
-        <h3>
-            Obligatorisk Pakke 
-            <br>Pris: 15 500,-
-        </h3>
-        <p>
-            <br> - 2 Trinnvurderinger
-            <br> - Sikkerhetskurs på bane
-            <br> - Sikkerhetskurs på vei
-            <br> - Leie av bil til førerprøve
-        </p>
+        <div class="big-text">
+            <h2>Obligatorisk pakke<br>15 500,-
+            </h2>
+        </div>
+
+    <div class="small-text">
+        <p>2 Trinnvurderinger</p>
+        <p>Sikkerhetskurs på bane</p>
+        <p>Sikkerhetskurs på vei</p>
+        <p>Leie av bil til førerprøve</p>
     </div>
+
+        <div class="detalj-btn">
+            <a href="./priser.html" class="detalj-btn-a"><p>Se detaljer</p></a>
+        </div>
+    </div>
+
     <div class="pakker-col">
-        <h3>
-            Start Pakke
-            <br>Pris: 9 000,-
-        </h3>
-        <p>- 10 Kjøretimer</p>
+        <div class="big-text">
+            <h2>
+               Start pakke<br>9 000,-
+            </h2>
+        </div>
+
+        <div class="small-text">
+            <p>10 Kjøretimer</p>
+        </div>
+
+        <div class="det-btn">
+            <a href="./priser.html" class="detalj-btn-a"><p>Se detaljer</p></a>
+        </div>
     </div>
 </div>
-
 </section>
 
 <!------------------ avdelinger  ---------------------------->
@@ -141,63 +166,62 @@
 <!--------- omtaler ------------->
 
 <section class="omtaler">
-    <h1>Våre omtaler</h1>
+    <h1>Våre omtaler </h1>
     <p>Vi er stolte over å ha mange fornøyde kunder, både på facebook, google og instagram</p>
 
     <div class="row">
-        <div class="omtaler-col">
-            <img src="images/user1.jpg">
-            <div>
-                <p>I recently got my class B driving license with Eddy. He is a great and patient instructor. He was good at identifying skills that I lack and should develop, while keeping his explanations simple (often with drawing aids). It has been a pleasure taking lessons from this school and my driving skills have definitely improved a lot. I highly recommend them! 🙂</p>
-                <h3>Huey Wen</h3>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-            </div>
-        </div>
 
-        <div class="omtaler-col">
-            <img src="images/user2.jpg">
-            <div>
-                <p>Tusen takk til superflinke og dyktige Veronica! Du har en utrolig god formidlingsevne, som har hjulpet mye. De gode tilbakemeldingene fra sensor gjenspeiler god opplæring fra deg!
-                    Takk for at du har vært så fleksibel og tålmodig. Kommer nok til å ha stemmen din i bakhode når jeg kjører fremover 😃</p>
-                <br>
-                    <h3>Nathali Mikkelsen</h3>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-            </div>
+        <button class="omtalerknapp" onclick="myFunction()">Åpne omtaler</button>
+        <div id= "myDIV" class="omtaler-col">
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmaystotterud%2Fposts%2F2062884507184650&show_text=true" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhueywen.ooi%2Fposts%2F10158546388409532&show_text=true" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnathalimikkelsen%2Fposts%2F10218881307732689&show_text=true&width=500" width="500" height="228" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+       
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FArezoo.M.Zeenali%2Fposts%2F2473662752741323&show_text=true&width=500" width="500" height="228" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
-    
     </div>
 
 </section>
 
-<!--------- info ------------->
+<!--------- footer ------------->
 
-<section class="ki">
-    <h1>Kontakt informasjon</h1>
-    <p>
-    <i class="fa-solid fa-phone"></i> <a href="">64 80 80 09</a>
-    <br>
-    <i class="fa-solid fa-envelope"></i> <a href="">Driver@driver.no</a>
-    <br>
-    <i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/drivertrafikk" target="_blank">Trafikkskolen Driver</a>
-    <br>
-    <i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/driver.no/" target="_blank">Trafikkskolen Driver</a>
-    <br>
-    <br>
-    <br>
-    Trafikkskolen Driver AS  All rights reserved
-    </p>
-</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Opplæringen </h4>
+                <ul>
+                    <li><a href="#">Trinn 1</a></li>
+                    <li><a href="#">Trinn 2</a></li>
+                    <li><a href="#">Trinn 3</a></li>
+                    <li><a href="#">Trinn 4</a></li>
+                </ul>
+            </div>
 
+            <div class="footer-col">
+                <h4>Kontakt oss </h4>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-phone"></i> 64 80 80 09</a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i> driver@driver.no</a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Bestill her</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Følg oss</h4>
+                <div class="footer-links">
+                    <a href="https://www.facebook.com/drivertrafikk" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/driver.no/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <!-----------JavaScript for Toggle Menu ----------->   
+
 <script>
 
 var navLinks = document.getElementById("navLinks");
@@ -210,6 +234,21 @@ function showMenu(){
 }
 
 </script>
+
+<!-----------JavaScript for omtalers "open close menu" ----------->
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        x.style.display == "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+
 
 </body>
 </html>
