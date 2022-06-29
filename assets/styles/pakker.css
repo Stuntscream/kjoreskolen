@@ -5,25 +5,6 @@
     padding-top: 80px;
 }
 
-h1{
-    font-size: 36px;
-    font-weight: 600px;
-}
-
-p{
-    color: #777;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-}
-
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
 .pakker-col{
     flex-basis: 31%;
     background: #ffffff60;
