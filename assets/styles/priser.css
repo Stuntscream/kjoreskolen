@@ -12,38 +12,57 @@
     margin-top: 100px;
 }
 
+.priser-col .vegvesentag {
+    text-align: center;
+    padding-top: 10px;
+}
 
-
-.pakker-col a{
+.priser-col .vegvesentag a{
     color: black;
     text-decoration: none;
 }
 
-.priser-col a{
-    color: black;
-}
-
-.priser {
+.pakker {
     width: 80%;
-    margin: auto;
-    padding-bottom: 50px;
+    padding-top: 0;
 }
 
-.priser h1 {
-    text-align: center;
-    padding-bottom: 40px;
-    margin-top: 30px;
+.pakker h1{
+    padding-top: 50px;
+}
+
+.priser-col {
+    color: black;
 }
 
 table {
     width: 100%;
+    outline: 1px solid rgba(202, 202, 202, 0.329);
     border-collapse:collapse;
     border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;  
+}
+
+@media (max-width: 700px){
+    .priser-col{
+       padding-top: 20px;
+    }
 }
 
 tr:hover {
     background-color: #7944ea38;
 }
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    text-align: left;
+    background-color: #7944ea;
+    color: white;
+  }
 
 table td {
     padding: 10px 30px 10px;
@@ -58,6 +77,7 @@ table tbody tr:nth-child(even):hover{
 }
 
 .priser-col {
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,6 +87,11 @@ table tbody tr:nth-child(even):hover{
 .pr-info {
     width: 60%;
     margin: auto;
+    padding-bottom: 30px;
+}
+
+.pr-info p{
+    text-align: left;
 }
 
 @media (max-width: 700px){
