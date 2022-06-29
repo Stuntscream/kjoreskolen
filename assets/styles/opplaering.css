@@ -26,7 +26,8 @@
 }
 
 .tabContainer .buttonContainer button {
-    width: 25%;
+    width: 24%;
+    margin: 0.5%;
     height: 100%;
     float: left;
     border-radius: 50px;
@@ -34,7 +35,7 @@
     outline: none;
     cursor: pointer;
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 18px;
     background-color: #7844ea;
     color: #fff;
