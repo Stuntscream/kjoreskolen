@@ -14,10 +14,22 @@
     margin-top: 100px;
 }
 
+
+/*-------------vår visjon----------*/
+
+.visjon {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
 /*-----------Tabs------------*/
 .tabContainer {
     width: 80%;
     margin: auto;
+    padding-top: 100px;
     padding-bottom: 30px;
 }
 
@@ -26,7 +38,7 @@
 }
 
 .tabContainer .buttonContainer button {
-    width: 24%;
+    width: 22%;
     margin: 0.5%;
     height: 100%;
     float: left;
@@ -81,12 +93,12 @@
 
 @media (max-width: 700px){
     .tabContainer .tabPanel h3{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     
     .tabContainer .tabPanel p{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     }
