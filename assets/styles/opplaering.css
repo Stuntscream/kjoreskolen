@@ -18,12 +18,22 @@
 /*-------------vår visjon----------*/
 
 .visjon {
-    width: 80%;
+    width: 60%;
     margin: auto;
     text-align: center;
 }
 
+.system {
+    padding-top: 50px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
 
+.system a{
+
+    color: #777;
+}
 
 /*-----------Tabs------------*/
 .tabContainer {

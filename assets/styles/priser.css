@@ -12,12 +12,12 @@
     margin-top: 100px;
 }
 
-.priser-col .vegvesentag {
+.priser-col .bestillknapp {
     text-align: center;
     padding-top: 10px;
 }
 
-.priser-col .vegvesentag a{
+.priser-col .bestillknapp a{
     color: black;
     text-decoration: none;
 }
