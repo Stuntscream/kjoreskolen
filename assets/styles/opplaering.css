@@ -14,6 +14,10 @@
     margin-top: 100px;
 }
 
+.op-header img {
+    width: 272px;
+}
+
 
 /*-------------vår visjon----------*/
 
@@ -39,7 +43,7 @@
 .tabContainer {
     width: 80%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 

@@ -7,11 +7,9 @@
         <title>Aasum-trafikkskole</title>
     
         <!--------------styles-links------------------>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="./assets/styles/nav.css">
-        <link rel="stylesheet" href="./assets/styles/button.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/styles/nav.css">
 
-        
         <link rel="stylesheet" href="./assets/styles/kontakt.css">
         
         <!--------------fonts og icons-links------------------>
@@ -50,6 +48,72 @@
 
 <!---------------------INNHOLD HER------------------------------->
 
+<section class="kontakt">
+
+    <div class="row"> 
+        <div class="kontakt-col">
+
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>Skjetten Avdelingen</h5>
+                    <p>Nordensvei 21, 2013 Skjetten</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>Fjellhamar Avdelingen</h5>
+                    <p>Lørdagsrudveien 24, 1472 Fjellhamar</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>Råholt Avdelingen</h5>
+                    <p>Trondheimsvegen 117, 2070 Råholt</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>64 80 80 09</h5>
+                    <p>Åpent 08:00 - 17:00 alle hverdager</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>Driver@driver.no</h5>
+                    <p>Mail oss når som helst, og vi svarer så fort vi kan.</p>
+                </span>
+            </div>
+
+
+            
+        </div>
+        <div class="kontakt-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Skriv fullt navn" required>
+                <input type="email" name="email" placeholder="Skriv e-post" required>
+                <input type="text" name="subject" placeholder="Skriv spørsmål" required>
+                <textarea rows="8" name="message" placeholder="message" required></textarea>
+                
+                <button type="submit" class="send-btn"><p>Send melding</p></button>
+            </form>
+
+
+
+        </div>
+    </div>
+
+</section>
+
 <!--------- Footer ------------->
 
 <footer class="footer">
@@ -86,8 +150,6 @@
 </footer>
 
 <!-----------JavaScript ----------->   
-
-<script src="./js/TabComponent.js"></script>
 <script src="./js/ToogleMenu.js"></script>
 
 
