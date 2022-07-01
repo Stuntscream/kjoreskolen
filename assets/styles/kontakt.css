@@ -2,7 +2,7 @@
 .op-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/background.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/gjengen.png);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -69,11 +69,12 @@
     color: #fff;
     background-color: #7944ea;
     border-radius: 7px;
-    padding: 10px 20px;
+    padding: 3px 6px;
     font-size: 13px;
     position: relative;
     cursor: pointer;
     margin-top: 10px;
+    border: none;
 }
 
 .send-btn p{
@@ -86,9 +87,6 @@
 }
 
 @media (max-width: 700px) {
-    .send-btn {
-        padding: 1px 2px;
-    }
 
     .kontakt-col form {
         width: 16em;
