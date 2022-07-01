@@ -89,4 +89,8 @@
     .send-btn {
         padding: 1px 2px;
     }
+
+    .kontakt-col form {
+        width: 16em;
+    }
 }
