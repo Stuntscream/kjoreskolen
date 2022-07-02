@@ -58,8 +58,8 @@
     color: #fff;
 }
 
-.pictures .img-info h{
-    text-decoration: underline solid;
+.pictures .img-info h4{
+    padding-top: 5px;
 }
 
 .pictures .img-info p{
