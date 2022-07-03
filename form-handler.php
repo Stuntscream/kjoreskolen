@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'edva-rd95@hotmail.com';
+$email_from = 'info@gh-pages--clinquant-beignet-c4ef4e.netlify.app';
 
 $email_subject = 'Testing av formhandler';
 
