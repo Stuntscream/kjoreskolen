@@ -28,6 +28,10 @@
     text-align: center;
 }
 
+.omoss p{
+    text-align: center;
+}
+
 .row {
     margin-top: 5%;
     display: flex;
@@ -46,6 +50,7 @@
     box-shadow: rgb(100, 100, 111) 0px 7px 29px 0px;
     outline: 1px solid rgba(202, 202, 202, 0.329);
     margin-bottom: 30px;
+    
 }
 
 .pictures a{
@@ -63,6 +68,7 @@
     text-align: center;
     background-color: #7944ea;
     color: #fff;
+    max-width: fit-content;
 }
 
 .pictures .img-info h4{

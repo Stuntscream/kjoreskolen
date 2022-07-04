@@ -253,30 +253,6 @@ h3 {
     width: 100%;
     display: block;
 }
-.facilities {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-.facilities-col {
-    flex-basis: 31%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: center;
-}
-.facilities-col img {
-    width: 30%;
-    border-radius: 10px;
-}
-.facilities-col p {
-    padding: 0;
-}
-.facilities-col h3 {
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: center;
-}
 
 .layer {
     background: transparent;
@@ -287,9 +263,11 @@ h3 {
     left: 0;
     transition: 0.5s;
 }
+
 .layer:hover {
     background: rgba(120, 68, 234, 0.7);
 }
+
 .layer h3 {
     width: 100%;
     font-weight: 500;
@@ -401,6 +379,7 @@ ul {
 .footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
+
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
@@ -411,6 +390,9 @@ ul {
     display: block;
     transition: all 0.3s ease;
 }
+
+
+
 .footer-col ul li a:hover {
     color: #fff;
     padding-left: 8px;
