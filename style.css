@@ -137,7 +137,7 @@ nav .fa-solid {
 .hero-btn:hover{
     border: 1px solid #7944ea69;
     Background: #7844ea;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 /*------------H og P-------------------*/
