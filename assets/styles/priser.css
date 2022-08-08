@@ -42,6 +42,11 @@
     color: black;
 }
 
+.priser-col a{
+    color: black;
+    text-decoration: none;
+}
+
 table {
     width: 100%;
     outline: 1px solid rgba(202, 202, 202, 0.329);
@@ -50,6 +55,23 @@ table {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;  
+}
+
+table tr td a::after {
+
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #7844ea;
+        display:block;
+        margin: auto;
+        transition: 0.5s;
+}
+
+table tr td a:hover::after {
+    width: 100%;
+    
+
 }
 
 @media (max-width: 700px){

@@ -1,0 +1,55 @@
+/*---------------------kjøretimeinfo-------------------------------*/
+
+.time-header {
+    height: 30vh;
+    width: 100%;
+    background-image: linear-gradient(#7944ea,#7944ea),url(../images/gjengen.png);
+    background-position: top;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.time-header h1 {
+    margin-top: 30px;
+}
+
+.time-header img {
+    width: 272px;
+}
+
+.nav-link ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #3f12b7;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-link ul li:hover::after {
+    width: 100%;
+}
+
+/*---------------------kjøretimeinfo-------------------------------*/
+
+.artikkel {
+    width: 40%;
+    margin: auto;
+}
+
+.artikkel h1 {
+    text-align: center;
+}
+
+.artikkel p {
+    margin-bottom: 100px;
+    font-size: 16px;
+    color: black;
+}
+
+.artikkel p a {
+    color: black;
+}
