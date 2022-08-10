@@ -3,7 +3,7 @@
 .time-header {
     height: 30vh;
     width: 100%;
-    background-image: linear-gradient(#7944ea,#7944ea),url(../images/gjengen.png);
+    background-image: linear-gradient(#7944ea,#7944ea);
     background-position: top;
     background-size: cover;
     text-align: center;
