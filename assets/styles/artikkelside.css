@@ -1,12 +1,11 @@
-/*---------------------kjøretimeinfo-------------------------------*/
+/*---------------------Header-------------------------------*/
 
 .time-header {
-    height: 30vh;
+    height: 18vh;
     width: 100%;
     background-image: linear-gradient(#7944ea,#7944ea);
     background-position: top;
     background-size: cover;
-    text-align: center;
     color: #fff;
     margin-bottom: 50px;
 }
@@ -33,6 +32,15 @@
     width: 100%;
 }
 
+@media (max-width: 700px){
+    .time-header {
+        height: 10vh;
+    }
+    .time-header img {
+        width: 220px;
+    }
+}
+
 /*---------------------kjøretimeinfo-------------------------------*/
 
 .artikkel {
@@ -42,6 +50,7 @@
 
 .artikkel h1 {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .artikkel p {
@@ -52,4 +61,11 @@
 
 .artikkel p a {
     color: black;
+}
+
+@media (max-width: 700px){
+    .artikkel {
+        width: 85%;
+    }
+
 }
