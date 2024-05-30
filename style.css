@@ -1,3 +1,5 @@
+
+/*------------Header-------------------*/
 *{
     margin: 0;
     padding: 0;
@@ -7,16 +9,20 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4,9,30,0.7)),url(images/banner.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.432),rgba(4,9,30,0.7)),url(assets/images/bannertest.jpg);
     background-position: center;
     background-size:cover;
     position: relative;
 }
 
+.sub-header h1 {
+    margin-top: 100px;
+}
+
 .header img {
     width: 272px;
 }
-
+/*------------NAV - aka media menu-------------------*/
 nav {
     display: flex;
     padding: 2% 6%;
@@ -60,6 +66,42 @@ position: relative;
     width: 100%;
 }
 
+nav .fa-solid {
+    display: none;
+}
+
+
+@media (max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+
+    .nav-link ul li {
+        display: block;
+    }
+    .nav-link {
+        position: fixed;
+        background: #7844ea;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    nav .fa-solid{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-link ul {
+        padding: 30px;
+    } 
+}
+/*------------Kontakt oss knapp-------------------*/
 .text-box{
     width: 90%;
     color: #fff;
@@ -95,55 +137,10 @@ position: relative;
 .hero-btn:hover{
     border: 1px solid #7944ea69;
     Background: #7844ea;
-    transition: 1s;
+    transition: 0.5s;
 }
 
-nav .fa-solid {
-    display: none;
-}
-
-
-@media (max-width: 700px){
-    .text-box h1{
-        font-size: 20px;
-    }
-    .nav-link ul li {
-        display: block;
-    }
-    .nav-link {
-        position: fixed;
-        background: #7844ea;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-    nav .fa-solid{
-        display: block;
-        color: #fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-    .nav-link ul {
-        padding: 30px;
-    }
-
-    
-}
-
-/*---------- pakker -----------*/
-
-.pakker {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 80px;
-}
-
+/*------------H og P-------------------*/
 h1{
     font-size: 36px;
     font-weight: 600px;
@@ -157,10 +154,19 @@ p{
     padding: 10px;
 }
 
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
+@media (max-width: 700px){
+.text-box h1{
+    font-size: 20px;
+}
+}
+
+/*------------Pakker-------------------*/
+
+.pakker {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
 }
 
 .pakker-col{
@@ -214,6 +220,12 @@ h3 {
     font-weight: 600;
     margin: 10px 0;
 }
+.row{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 
 @media(max-width: 700px) {
@@ -221,9 +233,7 @@ h3 {
         flex-direction: column;
     }
 }
-
-/*-------------- avdelinger ------------------*/
-
+/*--------- facilities /våre avdelinger ---------*/
 .avdelinger {
     width: 80%;
     margin: auto;
@@ -253,9 +263,11 @@ h3 {
     left: 0;
     transition: 0.5s;
 }
+
 .layer:hover {
     background: rgba(120, 68, 234, 0.7);
 }
+
 .layer h3 {
     width: 100%;
     font-weight: 500;
@@ -272,34 +284,7 @@ h3 {
     opacity: 1;
 }
 
-/*--------- facilities ---------*/
-
-.facilities {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-.facilities-col {
-    flex-basis: 31%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: center;
-}
-.facilities-col img {
-    width: 30%;
-    border-radius: 10px;
-}
-.facilities-col p {
-    padding: 0;
-}
-.facilities-col h3 {
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-/*-----------omtaler----------*/
+/*------------Omtaler-------------------*/
 
 .omtaler{
     width: 80%;
@@ -355,8 +340,10 @@ iframe {
 }
 
 .row{
+    margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 ul {
@@ -392,6 +379,7 @@ ul {
 .footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
+
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
@@ -402,6 +390,9 @@ ul {
     display: block;
     transition: all 0.3s ease;
 }
+
+
+
 .footer-col ul li a:hover {
     color: #fff;
     padding-left: 8px;
@@ -434,129 +425,5 @@ ul {
     .footer-col{
        width: 100%;
     }
-}
-
-
-/*----------Priser - siden -----------------*/
-
-.sub-header {
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
-
-.sub-header h1 {
-    margin-top: 100px;
-}
-
-.pakker-col a{
-    color: black;
-    text-decoration: none;
-}
-
-.priser-col a{
-    color: black;
-}
-
-.priser {
-    width: 80%;
-    margin: auto;
-    padding-bottom: 50px;
-}
-
-.priser h1 {
-    text-align: center;
-    padding-bottom: 40px;
-    margin-top: 30px;
-}
-
-table {
-    width: 100%;
-    border-collapse:collapse;
-    border: 1px solid #ddd;
-}
-
-tr:hover {
-    background-color: #7944ea38;
-}
-
-table td {
-    padding: 10px 30px 10px;
-}
-
-table tbody tr:nth-child(even){
-    background-color: #f5f5f5;
-}
-
-table tbody tr:nth-child(even):hover{
-    background-color: #7944ea38;
-}
-
-.priser-col {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/*----------Pr - info -----------------*/
-
-.pr-info {
-    width: 60%;
-    margin: auto;
-}
-
-@media (max-width: 700px){
-    .pr-info{
-       width: 80%;
-    }
-}
-
-/*----------opplæring - header -----------------*/
-.op-header {
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 80px;
-}
-
-.op-header h1 {
-    margin-top: 100px;
-}
-
-/*----------opplæring - trinn -----------------*/
-
-.trinn {
-    width: 40%;
-    margin: auto;
-    text-align: center;
-    padding-top: 80px;
-    outline: 1px solid rgba(202, 202, 202, 0.329);
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;
-}
-
-.trinn h2 {
-    text-align: left;
-    padding-left: 8px;
-    border-bottom: 1px solid black;
-}
-
-.trinn p {
-    text-align: left;
-}
-
-@media (max-width: 700px){
-    .trinn{
-       width: 80%;
-    }
+    
 }

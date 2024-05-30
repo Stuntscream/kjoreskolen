@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nb">
 <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <meta name="description" content="Aasum trafikkskole er en pålitelig trafikkskole, som utdanner førerkort aspiranter til å bli trafikksikre sjåfører.">
-
+    <meta charset="utf-8">
     <title>Aasum-trafikkskole</title>
+
+    <!--------------styles-links------------------>
+
     <link rel="stylesheet" href="style.css">
+
+    <!--------------fonts og icons-links------------------>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
@@ -13,14 +18,14 @@
     
     <script src="https://kit.fontawesome.com/d4b1dfde5b.js" crossorigin="anonymous"></script>
 </head>
-<body>
 
+<body>
 <!--------------Header------------------>
 
     <section class="header">
 
         <nav>
-            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="assets/images/logo.png"></a>
             <div class="nav-link" id="navLinks">
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
@@ -28,7 +33,7 @@
                     <li><a href="./priser.html">PRISER</a></li>
                     <li><a href="./opplaering.html">OPPLÆRING</a></li>
                     <li><a href="./kontakt.html">KONTAKT</a></li>
-                    <li><a href="./omoss.html">OM OSS</a></li>
+                    <li><a href="./omoss.html">ANSATTE</a></li>
                 </ul>
             </div>
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
@@ -68,7 +73,7 @@
         </div>
 
         <div class="detalj-btn">
-            <a href="./priser.html" class="detalj-btn-a"><p>Se detaljer</p></a>
+            <a href="./priser.html" class="detalj-btn-a"><p>Se priser</p></a>
         </div>
     </div>
 
@@ -86,7 +91,7 @@
     </div>
 
         <div class="detalj-btn">
-            <a href="./priser.html" class="detalj-btn-a"><p>Se detaljer</p></a>
+            <a href="./priser.html" class="detalj-btn-a"><p>Se priser</p></a>
         </div>
     </div>
 
@@ -102,7 +107,7 @@
         </div>
 
         <div class="det-btn">
-            <a href="./priser.html" class="detalj-btn-a"><p>Se detaljer</p></a>
+            <a href="./priser.html" class="detalj-btn-a"><p>Se priser</p></a>
         </div>
     </div>
 </div>
@@ -116,48 +121,22 @@
 
     <div class="row">
         <div class="avdelinger-col">
-            <img src="images/london.png">
+            <img src="assets/images/fjellhamar.png">
             <div class="layer">
                 <h3>Fjellhamar<br><br>Lørdagsrudveien 24, 1472</h3>
             </div>
         </div>
         <div class="avdelinger-col">
-            <img src="images/newyork.png">
+            <img src="assets/images/raaholt.png">
             <div class="layer">
                 <h3>Råholt<br><br>Trondheimsvegen 117, 2070</h3>
             </div>
         </div>
         <div class="avdelinger-col">
-            <img src="images/washington.png">
+            <img src="assets/images/skjetten.png">
             <div class="layer">
                 <h3>Skjetten<br><br>Nordensvei 21, 2013</h3>
             </div>
-        </div>
-    </div>
-
-</section>
-
-<!--------- Facilities ------------->
-
-<section class="facilities">
-    <h1>Vi gir kvalitet i opplæringen</h1>
-    <p>Hos oss skal du som elev bli tatt på alvor, og få god oppfølging mot ervervet førerkort.</p>
-
-    <div class="row">
-        <div class="facilities-col">
-            <img src="images/library.png">
-            <h3>Ta lappen i tide</h3>
-            <p>Drømmer du om å ta lappen innen en viss tid? Vi hjelper deg med å rekke ditt mål!</p>
-        </div>
-        <div class="facilities-col">
-            <img src="images/basketball.png">
-            <h3>Kvalitet i hver time</h3>
-            <p>Jo mer kvalitet du får i opplæringen jo lavere antall timer vil du trenge for å ta førerkortet</p>
-        </div>
-        <div class="facilities-col">
-            <img src="images/cafeteria.png">
-            <h3>Gjør det lett å ta lappen</h3>
-            <p>Med lettkjørte biler og lærere med et klart opplæringssystem blir det lett å ta lappen.</p>
         </div>
     </div>
 
@@ -171,7 +150,7 @@
 
     <div class="row">
 
-        <button class="omtalerknapp" onclick="myFunction()">Åpne omtaler</button>
+        <button class="omtalerknapp" onclick="Omtaler()">Åpne omtaler</button>
         <div id= "myDIV" class="omtaler-col">
             <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmaystotterud%2Fposts%2F2062884507184650&show_text=true" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
       
@@ -191,21 +170,23 @@
     <div class="container">
         <div class="row">
             <div class="footer-col">
-                <h4>Opplæringen </h4>
+                <h4>Utforsk </h4>
                 <ul>
-                    <li><a href="#">Trinn 1</a></li>
-                    <li><a href="#">Trinn 2</a></li>
-                    <li><a href="#">Trinn 3</a></li>
-                    <li><a href="#">Trinn 4</a></li>
+                    <li><a href="./priser.html">Prisene våre</a></li>
+                    <li><a href="./opplaering.html">Opplæringen</a></li>
+                    <li><a href="./kontakt.html">Kontakt info</a></li>
+                    <li><a href="./omoss.html">Ansatte</a></li>
                 </ul>
             </div>
 
             <div class="footer-col">
                 <h4>Kontakt oss </h4>
                 <ul>
-                    <li><a href="#"><i class="fa-solid fa-phone"></i> 64 80 80 09</a></li>
-                    <li><a href="#"><i class="fa-solid fa-envelope"></i> driver@driver.no</a></li>
-                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Bestill her</a></li>
+                    <li><a href="tel:+4764808009"><i class="fa-solid fa-phone"></i> 64 80 80 09</a></li>
+                    <li><a href="mailto:driver@driver.no?subject=!!Skriv%20hva%20du%20ønsker%20her!!
+                        &body=!!Skriv%20fullt%20navn%20her!!"><i class="fa-solid fa-envelope"></i> driver@driver.no</a></li>
+                    <li><a href="mailto:driver@driver.no?subject=!!Skriv%20hva%20du%20ønsker%20her!!
+                        &body=!!Skriv%20fullt%20navn%20her!!"><i class="fa-solid fa-cart-shopping"></i> Bestill her</a></li>
                 </ul>
             </div>
 
@@ -220,34 +201,11 @@
     </div>
 </footer>
 
-<!-----------JavaScript for Toggle Menu ----------->   
+<!-----------JavaScript ----------->   
 
-<script>
-
-var navLinks = document.getElementById("navLinks");
-
-function showMenu(){
-    navLinks.style.right = "0";
-}
-    function hideMenu(){
-    navLinks.style.right = "-200px";
-}
-
-</script>
-
-<!-----------JavaScript for omtalers "open close menu" ----------->
-
-    <script>
-    function myFunction() {
-      var x = document.getElementById("myDIV");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-        x.style.display == "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-    </script>
+<script src="./js/TabComponent.js"></script>
+<script src="./js/ToogleMenu.js"></script>
+<script src="./js/Omtaler.js"></script>
 
 
 </body>

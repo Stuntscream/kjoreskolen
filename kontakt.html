@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="with=device-width, initial-scale=1.0">
-    <meta name="description" content="Aasum trafikkskole er en pålitelig trafikkskole, som utdanner førerkort aspiranter til å bli trafikksikre sjåfører.">
-
-    <title>Aasum-trafikkskole</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<html lang="nb">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta name="description" content="Aasum trafikkskole er en pålitelig trafikkskole, som utdanner førerkort aspiranter til å bli trafikksikre sjåfører.">
+        <meta charset="utf-8">
+        <title>Aasum-trafikkskole</title>
     
-    
-    <script src="https://kit.fontawesome.com/d4b1dfde5b.js" crossorigin="anonymous"></script>
-</head>
+        <!--------------styles-links------------------>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="./assets/styles/kontakt.css">
+        
+        <!--------------fonts og icons-links------------------>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        
+        
+        <script src="https://kit.fontawesome.com/d4b1dfde5b.js" crossorigin="anonymous"></script>
+    </head>
 <body>
 
 <!--------------Header------------------>
@@ -20,7 +25,7 @@
     <section class="op-header">
 
         <nav>
-            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="./assets/images/logo.png"></a>
             <div class="nav-link" id="navLinks">
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
@@ -28,7 +33,7 @@
                     <li><a href="./priser.html">PRISER</a></li>
                     <li><a href="./opplaering.html">OPPLÆRING</a></li>
                     <li><a href="./kontakt.html">KONTAKT</a></li>
-                    <li><a href="./omoss.html">OM OSS</a></li>
+                    <li><a href="./omoss.html">ANSATTE</a></li>
                 </ul>
             </div>
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
@@ -41,27 +46,95 @@
 
 <!---------------------INNHOLD HER------------------------------->
 
+<section class="kontakt">
+
+    <div class="row"> 
+        <div class="kontakt-col">
+
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>Skjetten Avdelingen</h5>
+                    <p>Nordensvei 21, 2013 Skjetten</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>Fjellhamar Avdelingen</h5>
+                    <p>Lørdagsrudveien 24, 1472 Fjellhamar</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>Råholt Avdelingen</h5>
+                    <p>Trondheimsvegen 117, 2070 Råholt</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>64 80 80 09</h5>
+                    <p>Åpent 08:00 - 17:00 alle hverdager</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>Driver@driver.no</h5>
+                    <p>Mail oss når som helst, og vi svarer så fort vi kan.</p>
+                </span>
+            </div>
+
+
+            
+        </div>
+        <div class="kontakt-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Skriv fullt navn" required>
+                <input type="email" name="email" placeholder="Skriv e-post" required>
+                <input type="text" name="subject" placeholder="Skriv spørsmål" required>
+                <textarea rows="8" name="message" placeholder="Melding" required></textarea>
+                
+                <button type="submit" class="send-btn"><p>Send melding</p></button>
+            </form>
+
+
+
+        </div>
+    </div>
+
+</section>
+
 <!--------- Footer ------------->
 
 <footer class="footer">
     <div class="container">
         <div class="row">
             <div class="footer-col">
-                <h4>Opplæringen </h4>
+                <h4>Utforsk </h4>
                 <ul>
-                    <li><a href="#">Trinn 1</a></li>
-                    <li><a href="#">Trinn 2</a></li>
-                    <li><a href="#">Trinn 3</a></li>
-                    <li><a href="#">Trinn 4</a></li>
+                    <li><a href="./priser.html">Prisene våre</a></li>
+                    <li><a href="./opplaering.html">Opplæringen</a></li>
+                    <li><a href="./kontakt.html">Kontakt info</a></li>
+                    <li><a href="./omoss.html">Ansatte</a></li>
                 </ul>
             </div>
 
             <div class="footer-col">
                 <h4>Kontakt oss </h4>
                 <ul>
-                    <li><a href="#"><i class="fa-solid fa-phone"></i> 64 80 80 09</a></li>
-                    <li><a href="#"><i class="fa-solid fa-envelope"></i> driver@driver.no</a></li>
-                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Bestill her</a></li>
+                    <li><a href="tel:+4764808009"><i class="fa-solid fa-phone"></i> 64 80 80 09</a></li>
+                    <li><a href="mailto:driver@driver.no?subject=!!Skriv%20hva%20du%20ønsker%20her!!
+                        &body=!!Skriv%20fullt%20navn%20her!!"><i class="fa-solid fa-envelope"></i> driver@driver.no</a></li>
+                    <li><a href="mailto:driver@driver.no?subject=!!Skriv%20hva%20du%20ønsker%20her!!
+                        &body=!!Skriv%20fullt%20navn%20her!!"><i class="fa-solid fa-cart-shopping"></i> Bestill her</a></li>
                 </ul>
             </div>
 
@@ -76,20 +149,9 @@
     </div>
 </footer>
 
-<!-----------JavaScript for Toggle Menu ----------->   
+<!-----------JavaScript ----------->   
+<script src="./js/ToogleMenu.js"></script>
 
-<script>
-
-var navLinks = document.getElementById("navLinks");
-
-function showMenu(){
-    navLinks.style.right = "0";
-}
-    function hideMenu(){
-    navLinks.style.right = "-200px";
-}
-
-</script>
 
 </body>
 </html>

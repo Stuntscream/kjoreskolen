@@ -1,0 +1,143 @@
+/*------------Header-------------------*/
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/gjengen.png);
+    background-position: top;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header img {
+    width: 272px;
+}
+
+.sub-header h1 {
+    margin-top: 100px;
+}
+
+/*------------Priser -------------------*/
+
+.priser-col .bestillknapp {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.priser-col .bestillknapp a{
+    color: black;
+    text-decoration-line: underline;
+}
+
+.pakker {
+    width: 80%;
+    padding-top: 0;
+}
+
+.pakker h1{
+    padding-top: 50px;
+}
+
+.priser-col {
+    color: black;
+}
+
+.priser-col a{
+    color: black;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    outline: 1px solid rgba(202, 202, 202, 0.329);
+    border-collapse:collapse;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;  
+}
+
+tr:hover {
+    background-color: #7944ea38;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    text-align: left;
+    background-color: #7944ea;
+    color: white;
+  }
+
+table td {
+    padding: 10px 30px 10px;
+}
+
+table tbody tr:nth-child(even){
+    background-color: #f5f5f5;
+}
+
+table tbody tr:nth-child(even):hover{
+    background-color: #7944ea38;
+}
+
+.priser-col {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ table .underline {
+   display: inline-block;
+   position: relative;
+ }
+ 
+ table .underline:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: #7944ea;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+ }
+ 
+ table .underline:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+ }
+
+
+
+@media (max-width: 700px){
+    .priser-col{
+       padding-top: 20px;
+    }
+}
+
+/*--------!!!!OBS: Pakker css ligger i style.css OBS!!!----------------*/
+/*--------!!!!OBS: Pakker css ligger i style.css OBS!!!----------------*/
+/*--------!!!!OBS: Pakker css ligger i style.css OBS!!!----------------*/
+/*--------!!!!OBS: Pakker css ligger i style.css OBS!!!----------------*/
+
+/*----------Pr - info -----------------*/
+
+.pr-info {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.pr-info p{
+    text-align: left;
+}
+
+@media (max-width: 700px){
+    .pr-info{
+       width: 80%;
+    }
+}

@@ -1,0 +1,71 @@
+/*---------------------Header-------------------------------*/
+
+.time-header {
+    height: 18vh;
+    width: 100%;
+    background-image: linear-gradient(#7944ea,#7944ea);
+    background-position: top;
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.time-header h1 {
+    margin-top: 30px;
+}
+
+.time-header img {
+    width: 272px;
+}
+
+.nav-link ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #3f12b7;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-link ul li:hover::after {
+    width: 100%;
+}
+
+@media (max-width: 700px){
+    .time-header {
+        height: 10vh;
+    }
+    .time-header img {
+        width: 220px;
+    }
+}
+
+/*---------------------kjøretimeinfo-------------------------------*/
+
+.artikkel {
+    width: 40%;
+    margin: auto;
+}
+
+.artikkel h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.artikkel p {
+    margin-bottom: 100px;
+    font-size: 16px;
+    color: black;
+}
+
+.artikkel p a {
+    color: black;
+}
+
+@media (max-width: 700px){
+    .artikkel {
+        width: 85%;
+    }
+
+}
