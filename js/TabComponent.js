@@ -14,4 +14,4 @@ function showPanel(panelIndex, colorCode) {
     tabPanels[panelIndex].style.display = "block";
     tabPanels[panelIndex].style.backgroundColor = "colorCode";
 }
-showPanel(0, '#3f12b7')
+showPanel(0, '#E49777')

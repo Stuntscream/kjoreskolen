@@ -7,7 +7,7 @@
 }
 
 .header {
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     background-image:url(assets/images/bannertest.jpg);
     background-position: center;
@@ -243,7 +243,7 @@ h3 {
 }
 
 .avdelinger-col {
-    flex-basis: 32%;
+    flex-basis: 100%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
@@ -279,10 +279,6 @@ h3 {
     transform: translateX(-50%);
     position: absolute;
     transition: 0.5s;
-}
-.layer:hover h3 {
-    bottom: 49%;
-    opacity: 1;
 }
 
 /*------------Omtaler-------------------*/

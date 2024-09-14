@@ -2,7 +2,7 @@
 .op-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/gjengen.png);
+    background-image: url(../images/bannertest.jpg);
     background-position: top;
     background-size: cover;
     text-align: center;
@@ -63,12 +63,12 @@
     padding: 10px;
     margin-bottom: 10px;
     font-size: 18px;
-    background-color: #7844ea;
+    background-color: #A97058;
     color: #fff;
 }
 
 .tabContainer .buttonContainer button:hover {
-    background-color: #3f12b7;
+    background-color: #E49777;
 }
 
 .tabContainer .tabPanel{
