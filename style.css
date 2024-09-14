@@ -9,7 +9,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.432),rgba(4,9,30,0.7)),url(assets/images/bannertest.jpg);
+    background-image:url(assets/images/bannertest.jpg);
     background-position: center;
     background-size:cover;
     position: relative;
@@ -56,7 +56,7 @@ position: relative;
     content: '';
     width: 0%;
     height: 2px;
-    background: #7844ea;
+    background: #4A8C85;
     display:block;
     margin: auto;
     transition: 0.5s;
@@ -81,7 +81,7 @@ nav .fa-solid {
     }
     .nav-link {
         position: fixed;
-        background: #7844ea;
+        background: #4A8C85;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -135,8 +135,9 @@ nav .fa-solid {
 }
 
 .hero-btn:hover{
-    border: 1px solid #7944ea69;
-    Background: #7844ea;
+    color: #000000;
+    border: 1px solid #4A8C8569;
+    Background: #C68367;
     transition: 0.5s;
 }
 
@@ -147,7 +148,7 @@ h1{
 }
 
 p{
-    color: #777;
+    color: #000000;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -171,7 +172,7 @@ p{
 
 .pakker-col{
     flex-basis: 31%;
-    background: #ffffff60;
+    background: #C68367;
     outline: 1px solid rgba(202, 202, 202, 0.329);
     border-radius: 10px;
     margin-bottom: 5%;
@@ -197,7 +198,7 @@ p{
     color: #fff;
     display: inline-block;
     text-decoration: none;
-    background-color: #7944ea;
+    background-color: #4A8C85;
     border-radius: 7px;
     padding: 3px 6px;
     font-size: 13px;
@@ -207,11 +208,11 @@ p{
 }
 
 .detalj-btn-a p{
-    color: #fff;
+    color: #000000;
 }
 
 .detalj-btn-a:hover{
-    Background: #3f12b7;
+    Background: #69C6BD;
     transition: 0.5s;
 }
 
@@ -265,7 +266,7 @@ h3 {
 }
 
 .layer:hover {
-    background: rgba(120, 68, 234, 0.7);
+    background: rgba(169, 112, 88, 0.7);
 }
 
 .layer h3 {
@@ -371,7 +372,7 @@ ul {
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #7844ea;
+    background-color: #4A8C85;
     height: 2px;
     box-sizing: border-box;
     width: 60px;
