@@ -352,7 +352,7 @@ ul {
 }
 
 .footer{
-    background-color: #24262b;
+    background-color: #1c3432;
     padding: 70px 0;
 }
 .footer-col {
@@ -372,7 +372,7 @@ ul {
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #4A8C85;
+    background-color: #C68367;
     height: 2px;
     box-sizing: border-box;
     width: 60px;
@@ -412,7 +412,7 @@ ul {
 }
 .footer-col .footer-links a:hover{
     color: #24262b;
-    background-color: #fff;
+    background-color: #C68367;
 }
 
 
