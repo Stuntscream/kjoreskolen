@@ -137,7 +137,7 @@ nav .fa-solid {
 .hero-btn:hover{
     color: #000000;
     border: 1px solid #000000;
-    Background: #E49777;
+    Background: #ffb494;
     transition: 0.5s;
 }
 
@@ -172,7 +172,7 @@ p{
 
 .pakker-col{
     flex-basis: 31%;
-    background: #C68367;
+    background: #E49777;
     outline: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     margin-bottom: 5%;
