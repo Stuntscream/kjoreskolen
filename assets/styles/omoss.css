@@ -6,7 +6,7 @@
     background-position: top;
     background-size: cover;
     text-align: center;
-    color: #fff;
+    color: #000000;
     margin-bottom: 80px;
 }
 
@@ -36,7 +36,7 @@
     margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .row-2 {
@@ -49,6 +49,7 @@
 .pictures {
     box-shadow: rgb(100, 100, 111) 0px 7px 29px 0px;
     outline: 1px solid rgba(202, 202, 202, 0.329);
+    background-color: #E49777;
     margin-bottom: 30px;
     
 }
@@ -65,9 +66,9 @@
 }
 
 .pictures .img-info {
-    text-align: center;
-    background-color: #8B5C48;
-    color: #fff;
+    text-align:center ;
+    background-color: #E49777;
+    color: #000000;
     max-width: fit-content;
 }
 
@@ -76,7 +77,7 @@
 }
 
 .pictures .img-info p{
-    color: #fff;
+    color: #000000;
 }
 
 @media(max-width: 700px) {

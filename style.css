@@ -173,7 +173,7 @@ p{
 .pakker-col{
     flex-basis: 31%;
     background: #C68367;
-    outline: 1px solid rgba(0, 0, 0, 0.329);
+    outline: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -199,6 +199,7 @@ p{
     display: inline-block;
     text-decoration: none;
     background-color: #649DAD;
+    outline: 1px solid rgb(0, 0, 0);
     border-radius: 7px;
     padding: 3px 6px;
     font-size: 13px;

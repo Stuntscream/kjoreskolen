@@ -3,10 +3,10 @@
 .time-header {
     height: 18vh;
     width: 100%;
-    background-image: linear-gradient(#1D3733,#1D3733);
+    background-image: linear-gradient(#649dad,#649dad);
     background-position: top;
     background-size: cover;
-    color: #fff;
+    color: #000000;
     margin-bottom: 50px;
 }
 
