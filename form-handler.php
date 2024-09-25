@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'ower@ower.no';
+$email_from = 'edva-rd95@hotmail.com';
 
 $email_subject = 'Testing av formhandler';
 
@@ -14,7 +14,7 @@ $email_body = "User Name: $name.\n".
               "User message: $message .\n";
 
 
-$to = "kontakt@ower.no";
+$to = "Edvard-aasum95@hotmail.com";
 
 $headers = "From: $email_from \r\n";
 
