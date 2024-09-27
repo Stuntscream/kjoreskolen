@@ -38,7 +38,7 @@
 
 .kontakt-col div i{
     font-size: 28px;
-    color: #E49777;
+    color: #F2AB8A;
     margin: 10px;
     margin-right: 30px;
 }
@@ -67,7 +67,7 @@
 .send-btn {
     outline: none;
     color: #fff;
-    background-color: #E49777;
+    background-color: #F2AB8A;
     border-radius: 7px;
     padding: 3px 6px;
     font-size: 13px;
@@ -78,11 +78,11 @@
 }
 
 .send-btn p{
-    color: #fff;
+    color: #000000;
 }
 
 .send-btn:hover{
-    Background: #8B5C48;
+    Background: #8AF2C4;
     transition: 0.5s;
 }
 

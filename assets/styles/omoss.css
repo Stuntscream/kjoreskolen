@@ -49,7 +49,7 @@
 .pictures {
     box-shadow: rgb(100, 100, 111) 0px 7px 29px 0px;
     outline: 1px solid rgba(202, 202, 202, 0.329);
-    background-color: #E49777;
+    background-color: #8AF2C4;
     margin-bottom: 30px;
     
 }
@@ -67,7 +67,7 @@
 
 .pictures .img-info {
     text-align:center ;
-    background-color: #E49777;
+    background-color: #8AF2C4;
     color: #000000;
     max-width: fit-content;
 }

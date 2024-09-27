@@ -63,12 +63,12 @@
     padding: 10px;
     margin-bottom: 10px;
     font-size: 18px;
-    background-color: #A97058;
+    background-color: #264336;
     color: #fff;
 }
 
 .tabContainer .buttonContainer button:hover {
-    background-color: #E49777;
+    background-color: #264336;
 }
 
 .tabContainer .tabPanel{
