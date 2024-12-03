@@ -1,0 +1,15 @@
+# Aktiver mod_rewrite
+RewriteEngine On
+
+# Fjerne "index" fra URL-en når brukeren er på hjemmesiden
+RewriteCond %{THE_REQUEST} \s/index(\.html)? [NC]
+RewriteRule ^index(\.html)?$ / [R=301,L]
+
+# Omdiriger .html URL-er til URL uten .html
+RewriteCond %{THE_REQUEST} \s([^.]+)\.html [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Tillat tilgang til filer uten .html i URL
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*?)/?$ $1.html [L]

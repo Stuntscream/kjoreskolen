@@ -1,7 +1,7 @@
 /*---------------------Header-------------------------------*/
 
 .time-header {
-    height: 25vh;
+    min-height: 25vh;
     width: 100%;
     background-image: linear-gradient(#649dad,#649dad);
     background-position: top;
