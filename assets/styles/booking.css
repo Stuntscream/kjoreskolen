@@ -1,0 +1,163 @@
+/*----------opplæring - header -----------------*/
+.op-header {
+    min-height: 50vh;
+    width: 100%;
+    background-image: url(../images/bannertest.jpg);
+    background-position:top;
+    background-size: cover;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 80px;
+
+}
+
+.op-header h1 {
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 2.5em; /* Gjør skriften mer fleksibel */
+}
+
+.op-header img {
+    width: 272px;
+}
+
+
+/*-------------vår visjon----------*/
+
+.booktime {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.system {
+    padding-top: 50px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.system a{
+
+    color: #777;
+}
+
+@media (max-width: 700px){
+    .booktime{
+        width: 90%;
+        margin: auto;
+    }
+    }
+
+/*-----------Tabs------------*/
+.tabContainer {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tabContainer .buttonContainer {
+    height: 15%;
+}
+
+.tabContainer .buttonContainer button {
+    width: 22%;
+    margin: 0.5%;
+    height: 100%;
+    float: left;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: #264336;
+    color: #fff;
+}
+
+.tabContainer .buttonContainer button:hover {
+    background-color: #264336;
+}
+
+.tabContainer .tabPanel{
+    height: 85%;
+    background-color: white;
+    color:black;
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.tabContainer .tabPanel h3{
+    width: 60%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.tabContainer .tabPanel p{
+    width: 60%;
+    margin: auto;
+}
+
+.buttonContainer {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tabPanel {
+    outline: 1px solid rgba(202, 202, 202, 0.329);
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;
+    text-align: left;
+}
+
+@media (max-width: 700px){
+    .tabContainer .tabPanel h3{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .tabContainer .tabPanel p{
+        width: 100%;
+        margin: auto;
+    }
+    }
+
+
+/*----------opplæring - trinn -----------------*/
+
+.trinn {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    outline: 1px solid rgba(202, 202, 202, 0.329);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;
+}
+
+.trinn h2 {
+    text-align: left;
+    padding-left: 8px;
+    border-bottom: 1px solid black;
+}
+
+.trinn p {
+    text-align: left;
+}
+
+@media (max-width: 700px){
+    .trinn{
+       width: 80%;
+    }
+}
+
+
